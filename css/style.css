@@ -4,3 +4,73 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* header */
+
+.nav-bar{
+    width: 100%;
+    padding-top: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-bar-sel a{
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 50%;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    background-color:white ;
+}
+
+/* end header */
+
+/* main */
+
+.container{
+    position: relative;
+}
+
+#differente{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+#tommy{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+#converse{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+h1{
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+#green-text{
+    color: green;
+}
+
+/* end main */
